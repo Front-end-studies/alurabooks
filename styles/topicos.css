@@ -28,3 +28,24 @@
     font-size: 14px;
     font-weight: 700;
 }
+
+@media screen and (min-width: 1024px) {
+
+    .topicos {
+        display: flex;
+        flex-direction: column;
+        padding: 1em 10%;
+    }
+
+    .topicos__titulo {
+        font-size: 24px;
+    }
+
+    .topicos__link {
+        font-size: 18px;
+        width: 70%;
+        align-items: center;
+        margin: 1em 0.3em;
+    }
+
+}
